@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="345.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.NumberGuessingController">
+   <children>
+      <Button fx:id="btnStart" layoutX="59.0" layoutY="217.0" mnemonicParsing="false" onAction="#onStartButtonClick" prefHeight="86.0" prefWidth="140.0" text="START" textFill="#1ca124" />
+      <Button fx:id="btnReset" layoutX="423.0" layoutY="217.0" mnemonicParsing="false" onAction="#onResetButtonClick" prefHeight="86.0" prefWidth="140.0" text="RESET" textFill="#ee1717" />
+      <TextField fx:id="txtNumber" layoutX="179.0" layoutY="118.0" prefHeight="52.0" prefWidth="268.0" />
+      <Label fx:id="lblResult" layoutX="18.0" layoutY="38.0" prefHeight="67.0" prefWidth="588.0" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Button fx:id="btnCheck" layoutX="244.0" layoutY="217.0" mnemonicParsing="false" onAction="#onCheckButtonClick" prefHeight="86.0" prefWidth="140.0" text="CHECK" textFill="#177bc3" />
+   </children>
+</AnchorPane>
