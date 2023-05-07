@@ -1,0 +1,7 @@
+{
+"randomNumber": 43,
+"totalAttempts": 10,
+"userGuessList": [
+{"enteredNum": 0, "result": null}
+]
+}
